@@ -29,7 +29,7 @@ for (let i in two) {
 } 
 // twoに属している数字番目の単語は先頭から2文字切り取る
 
-ans = ans.slice(1, 20)
+ans = ans.slice(1, 20);
 // ans[0]がemptyなのでその後ろを切り取る
 
 console.log(ans);
